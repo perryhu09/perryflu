@@ -1,10 +1,19 @@
-p {
-    font-style:normal;
-    font-family:monospace;
-    font-size: 15px;
+* {
+    background-color: #050003;
+    color: #0829FF;
 }
 
-h1 {
-    color: purple;
-    font-size: 30px;
+.top-bar-container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
 }
